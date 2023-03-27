@@ -59,7 +59,7 @@ if (mysqli_num_rows($result) > 0) {
     echo "</table>";
 } else {
     echo '<p class="Results">No results found.</p>';
-    echo "<button onclick=\"location.href='admin.php';\">Back to table</button>";
+    echo "<button onclick=\"location.href='index.php';\">Back to table</button>";
 }
 ?>
 <br>
