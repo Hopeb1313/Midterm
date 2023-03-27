@@ -1,0 +1,88 @@
+
+    body {
+        background-color: rgb(233, 233, 245); 
+        font-family: Verdana, Arial, sans-serif;
+          
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid #ccc;
+        border-spacing: 0;
+        margin-bottom: 1em;
+        overflow-x: auto;
+    }
+    
+    td, th {
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+    h1 {
+        padding-bottom: 10px; 
+        border-bottom: 1px solid rgb(145, 140, 140);
+      } 
+
+      input[type="submit"] {
+        background-color: #e59191;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #ff4444;
+      }
+      button{
+        margin-bottom: 10px; 
+        background-color: rgb(229, 219, 219);
+        size: 14px;
+        border-color:rgb(145, 140, 140)
+      } 
+
+      button:hover {
+
+        background-color: rgb(163, 163, 222); 
+      }
+      .Results {
+        padding: 10px; 
+        font-size: 20px; 
+        color: red; 
+      }
+
+      input[type="text"],
+input[type="class"],
+input[type="make"],
+input[type="type"],
+textarea {
+  background-color: #f7f3f3;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 12px;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out;
+}
+select {
+    padding: 12px 14px;
+    margin: 8px 0;
+    border-radius: 4px;
+    background-color: #f2e7e7;
+    font-size: 12px;
+
+
+  }
+  option {
+    font-size: 12px;
+  }
+  
+  
+  
+  
+  
+  
