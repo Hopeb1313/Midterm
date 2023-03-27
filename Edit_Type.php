@@ -2,10 +2,10 @@
 <link rel="stylesheet" type="text/css" href="view/styles.css">
 <?php include('view/header.php'); ?>
 <?php
-$host = "localhost"; 
-$user = "root"; 
-$pass = ""; 
-$db = "zippyusedautos"; 
+$host = "en1ehf30yom7txe7.cbetxkdyhwsb.us-east-1.rds.amazonaws.com"; 
+$user = "vp8744gaikmgekne"; 
+$pass = "hwntszmccbzzh0vx"; 
+$db = "gsx4xjtkbbf7dvh7"; 
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
@@ -45,7 +45,7 @@ $query = "SELECT vehicles.year, vehicles.model, vehicles.price, vehicles.type_id
 		?>
 	</table>
 
-    
+
 	<form method="POST" action="insert_type.php">
 		<label for="type">New Type:</label>
 		<input type="text" name="type" id="type">
